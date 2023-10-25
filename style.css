@@ -52,8 +52,9 @@ a {
  * Styling for the publication list
  */
 .paper-title {
+    font-weight: bold;
     padding-top: 2.5%;
-    font-size: 11pt;
+    font-size: 12pt;
     color: #818181;
 }
 .paper-title a {color: #000;}
@@ -82,14 +83,14 @@ a {
     background-color: #f0ad4e;
 }
 .paper .links a[data-type="Project page"] {
-    background-color: #daa6f7;
+    background-color: #f0ad4e;
     width: 110px;
 }
 .paper .links a[data-type="Paper"] {
-    background-color: #4a5759;
+    background-color: #0081af;
 }
 .paper .links a[data-type="Code"] {
-    background-color: #edafb8;
+    background-color: #0081af;
 }
 .paper .links a[data-type="Blog"] {
     background-color: #06d6a0;
@@ -98,7 +99,7 @@ a {
     background-color: #581845;
 }
 .paper .links a[data-type="Video"] {
-    background-color: #c3423f;
+    background-color: #4a5759;
 }
 .paper .links a[data-type="Poster"] {
     background-color: #7ebc89;
@@ -121,7 +122,8 @@ a {
     font-size: 11pt;
 }
 .paper .authors .author {
-    padding-left: 7px;
+    padding-left: 1px;
+    /* padding-left: 7px; */
 }
 .paper .authors a {
     color: #555;
@@ -137,9 +139,9 @@ a {
 
 .paper .conference .special {
     font-weight: bold;
-    color: #ff0000;
+    color: #ac9f26;
     font-size: 12pt;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 /**
