@@ -61,12 +61,15 @@ authors = {
     "zfan": Author("Zicong Fan", "https://zc-alexfan.github.io/"),
     "sergey": Author("Sergey Prokudin", "https://scholar.google.de/citations?user=xSywCzAAAAAJ&hl=en"),
     "supasorn": Author("Supasorn Suwajanakorn", "https://www.supasorn.com/"),
+    "emre": Author("Emre Aksan", "https://emreaksan.github.io/"),
+    "thabo": Author("Thabo Beeler", "https://thabobeeler.com/"),
     # Bio
     "sira": Author("Sira Sriswasdi", "https://www.research.chula.ac.th/researcher-/sira-sriswasdi/"),
     "hsinyao": Author("Hsin-Yao Tang", ""),
     "davidw": Author("David W Speicher", ""),
 }
 conferences = {
+    "arxiv": Conference("arXiv"),
     "cvpr": Conference("Conference on Computer Vision and Pattern Recognition (CVPR)"),
     "iccv": Conference("International Conference on Computer Vision (ICCV)"),
     "3dv": Conference("International Conference on 3D Vision (3DV)"),
@@ -74,6 +77,20 @@ conferences = {
     "mcp": Conference("Molecular & Cellular Proteomics")
 }
 publications = [
+    Paper(
+        "DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors",
+        "https://arxiv.org/abs/2312.11994",
+        "teasers/dno.jpg",
+        author_list(authors, "korrawe", "konpat", "emre", "thabo", "supasorn", "siyu"),
+        conferences["arxiv"],
+        2023,
+        None,
+        [
+            Link("Project page", "https://korrawe.github.io/dno-project/", None, None),
+            Link("Paper", "https://arxiv.org/abs/2312.11994", None, None),
+            Link("Code", "https://github.com/korrawe/Diffusion-Noise-Optimization", None, None),
+        ]
+    ),
     Paper(
         "GMD: Controllable Human Motion Synthesis via Guided Diffusion Models",
         "https://arxiv.org/abs/2305.12577",
