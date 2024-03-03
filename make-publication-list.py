@@ -80,10 +80,10 @@ publications = [
     Paper(
         "DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors",
         "https://arxiv.org/abs/2312.11994",
-        "teasers/dno.jpg",
+        "teasers/dno_optimize.gif",
         author_list(authors, "korrawe", "konpat", "emre", "thabo", "supasorn", "siyu"),
-        conferences["arxiv"],
-        2023,
+        conferences["cvpr"],
+        2024,
         None,
         [
             Link("Project page", "https://korrawe.github.io/dno-project/", None, None),
