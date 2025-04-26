@@ -63,13 +63,29 @@ authors = {
     "supasorn": Author("Supasorn Suwajanakorn", "https://www.supasorn.com/"),
     "emre": Author("Emre Aksan", "https://emreaksan.github.io/"),
     "thabo": Author("Thabo Beeler", "https://thabobeeler.com/"),
+
+    "ekkasit": Author("Ekkasit Pinyoanuntapong", "https://www.ekkasit.com/"),
+    "muhammad": Author(" Muhammad Usama Saleem", "https://m-usamasaleem.github.io/"),
+    "puwang": Author("Pu Wang", "https://webpages.charlotte.edu/pwang13/"),
+    "hongfei": Author("Hongfei Xue", "https://havocfixer.github.io/"),
+    "chen": Author("Chen Chen", "https://www.crcv.ucf.edu/chenchen/"),
+    "chuan": Author("Chuan Guo", "https://ericguo5513.github.io/"),
+    "junli": Author("Junli Cao", "https://research.snap.com/team_members/junli-cao.html"),
+    "jianren": Author("Jian Ren", "https://alanspike.github.io/"),
+    "sergeytu": Author("Sergey Tulyakov", "https://stulyakov.com/"),
+
+    "yanwu": Author("Yan Wu", "https://wuyan01.github.io/"),
+    "zhengyi": Author("Zhengyi Luo", "https://www.zhengyiluo.com/"),
+
+
+
     # Bio
     "sira": Author("Sira Sriswasdi", "https://www.research.chula.ac.th/researcher-/sira-sriswasdi/"),
     "hsinyao": Author("Hsin-Yao Tang", ""),
     "davidw": Author("David W Speicher", ""),
 }
 conferences = {
-    "arxiv": Conference("arXiv"),
+    "arxiv": Conference("ArXiv"),
     "cvpr": Conference("Conference on Computer Vision and Pattern Recognition (CVPR)"),
     "iccv": Conference("International Conference on Computer Vision (ICCV)"),
     "3dv": Conference("International Conference on 3D Vision (3DV)"),
@@ -77,6 +93,34 @@ conferences = {
     "mcp": Conference("Molecular & Cellular Proteomics")
 }
 publications = [
+    Paper(
+        "UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control",
+        "http://arxiv.org/abs/2504.12540",
+        "teasers/uniphys.gif",
+        author_list(authors, "yanwu", "korrawe", "zhengyi", "siyu"),
+        conferences["arxiv"],
+        2025,
+        None,
+        [
+            Link("Project page", "https://wuyan01.github.io/uniphys-project/", None, None),
+            Link("Paper", "http://arxiv.org/abs/2504.12540", None, None),
+            # Link("Code", "https://github.com/wuyan01/uniphys", None, None),
+        ]
+    ),
+    Paper(
+        "ControlMM: Controllable Masked Motion Generation",
+        "https://arxiv.org/abs/2410.10780",
+        "teasers/ControlMM.gif",
+        author_list(authors, "ekkasit", "muhammad", "korrawe", "puwang", "hongfei", "chen", "chuan", "junli", "jianren", "sergeytu"),
+        conferences["arxiv"],
+        2024,
+        None,
+        [
+            Link("Project page", "https://www.ekkasit.com/ControlMM-page/", None, None),
+            Link("Paper", "https://arxiv.org/abs/2410.10780", None, None),
+            Link("Code", "https://github.com/exitudio/ControlMM/", None, None),
+        ]
+    ),
     Paper(
         "DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors",
         "https://arxiv.org/abs/2312.11994",
