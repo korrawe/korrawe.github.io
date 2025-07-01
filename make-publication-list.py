@@ -98,7 +98,7 @@ publications = [
         "http://arxiv.org/abs/2504.12540",
         "teasers/uniphys.gif",
         author_list(authors, "yanwu", "korrawe", "zhengyi", "siyu"),
-        conferences["arxiv"],
+        conferences["iccv"],
         2025,
         None,
         [
@@ -112,8 +112,8 @@ publications = [
         "https://arxiv.org/abs/2410.10780",
         "teasers/ControlMM.gif",
         author_list(authors, "ekkasit", "muhammad", "korrawe", "puwang", "hongfei", "chen", "chuan", "junli", "jianren", "sergeytu"),
-        conferences["arxiv"],
-        2024,
+        conferences["iccv"],
+        2025,
         None,
         [
             Link("Project page", "https://www.ekkasit.com/ControlMM-page/", None, None),
