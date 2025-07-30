@@ -108,7 +108,7 @@ publications = [
         ]
     ),
     Paper(
-        "ControlMM: Controllable Masked Motion Generation",
+        "MaskControl: Spatio-Temporal Control for Masked Motion Synthesis",
         "https://arxiv.org/abs/2410.10780",
         "teasers/ControlMM.gif",
         author_list(authors, "ekkasit", "muhammad", "korrawe", "puwang", "hongfei", "chen", "chuan", "junli", "jianren", "sergeytu"),
