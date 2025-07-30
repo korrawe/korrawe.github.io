@@ -100,7 +100,7 @@ publications = [
         author_list(authors, "yanwu", "korrawe", "zhengyi", "siyu"),
         conferences["iccv"],
         2025,
-        None,
+        "Oral",
         [
             Link("Project page", "https://wuyan01.github.io/uniphys-project/", None, None),
             Link("Paper", "http://arxiv.org/abs/2504.12540", None, None),
@@ -114,7 +114,7 @@ publications = [
         author_list(authors, "ekkasit", "muhammad", "korrawe", "puwang", "hongfei", "chen", "chuan", "junli", "jianren", "sergeytu"),
         conferences["iccv"],
         2025,
-        None,
+        "Highlight",
         [
             Link("Project page", "https://www.ekkasit.com/ControlMM-page/", None, None),
             Link("Paper", "https://arxiv.org/abs/2410.10780", None, None),
