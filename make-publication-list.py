@@ -114,7 +114,7 @@ publications = [
         author_list(authors, "ekkasit", "muhammad", "korrawe", "puwang", "hongfei", "chen", "chuan", "junli", "jianren", "sergeytu"),
         conferences["iccv"],
         2025,
-        "Oral",
+        "Oral, Award Candidate",
         [
             Link("Project page", "https://www.ekkasit.com/ControlMM-page/", None, None),
             Link("Paper", "https://arxiv.org/abs/2410.10780", None, None),
