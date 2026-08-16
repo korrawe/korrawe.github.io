@@ -76,6 +76,7 @@ authors = {
 
     "yanwu": Author("Yan Wu", "https://wuyan01.github.io/"),
     "zhengyi": Author("Zhengyi Luo", "https://www.zhengyiluo.com/"),
+    "chiawen": Author("Chia-Wen Chen", "https://chiawenchen.github.io/"),
 
 
 
@@ -88,11 +89,26 @@ conferences = {
     "arxiv": Conference("ArXiv"),
     "cvpr": Conference("Conference on Computer Vision and Pattern Recognition (CVPR)"),
     "iccv": Conference("International Conference on Computer Vision (ICCV)"),
+    "eccv": Conference("European Conference on Computer Vision (ECCV)"),
     "3dv": Conference("International Conference on 3D Vision (3DV)"),
     "icassp": Conference("IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"),
     "mcp": Conference("Molecular & Cellular Proteomics")
 }
 publications = [
+    Paper(
+        "NaP-Control: Navigating Diffusion Prior for Versatile and Fast Character Control",
+        "https://arxiv.org/abs/2605.20209",
+        "teasers/nap-control.gif",
+        author_list(authors, "chiawen", "yanwu", "korrawe", "siyu"),
+        conferences["eccv"],
+        2026,
+        None,
+        [
+            Link("Project page", "https://chiawenchen.github.io/nap-control-project/", None, None),
+            Link("Paper", "https://arxiv.org/abs/2605.20209", None, None),
+            Link("Code", "https://github.com/chiawenchen/NaP", None, None),
+        ]
+    ),
     Paper(
         "UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control",
         "http://arxiv.org/abs/2504.12540",
@@ -511,7 +527,7 @@ def main(argv):
     args = parser.parse_args(argv)
 
     # Read the file
-    with open(args.file) as f:
+    with open(args.file, encoding="utf-8") as f:
         html = f.read()
 
     # Find the fence comments
@@ -531,10 +547,10 @@ def main(argv):
 
     # If safe is set do not overwrite the input file
     if args.safe:
-        with open(args.file[:-5] + "_new.html", "w") as f:
+        with open(args.file[:-5] + "_new.html", "w", encoding="utf-8") as f:
             f.write(html)
     else:
-        with open(args.file, "w") as f:
+        with open(args.file, "w", encoding="utf-8") as f:
             f.write(html)
 
 
